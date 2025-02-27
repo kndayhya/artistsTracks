@@ -1,0 +1,27 @@
+body{
+
+}
+
+.grey{
+  color : LightGrey;
+  font-family:'Arial', sans-serif;
+  font-weight: bold;
+}
+hr{
+    width: 50%;
+    margin-left:0%;
+    height: 5px;
+    border: none;
+    background-color: black;  
+}
+
+h1{
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:-5%
+}
+.tracks{
+    font-family: "Arial Black", sans-serif;
+    font-weight: bold;
+}
