@@ -4,6 +4,7 @@
   color : LightGrey;
   font-family:'Arial', sans-serif;
   font-weight: bold;
+  font-size:larger
 }
 hr{
     width: 50%;
@@ -22,25 +23,36 @@ h1{
 .tracks{
     font-family: "Arial Black", sans-serif;
     font-weight: bold;
+    line-height: 50px;
 }
-#bottom-left{
+.bottom-left{
     height:15px;
-    width:50%;
-    margin-bottom:2.5%
+    width:110%;
+    margin-bottom:5%
 }
 #rightmost{
     width:500px;
-    height:500p;
+    height: 810px;;
     margin-left: 20px;
+    position: relative;
 
 }
 #container{
     display: flex;
     align-items: flex-start;
+    position: relative;
 }
 #left{
     flex:1;
     padding:20px;
+}
+
+#bottom-right {
+    position: absolute;
+    top: calc(810px + 20px);
+    left: 75%; 
+    right: 40px; 
+    height: 70px;
 }
 
 
