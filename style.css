@@ -1,6 +1,4 @@
-body{
 
-}
 
 .grey{
   color : LightGrey;
@@ -25,3 +23,24 @@ h1{
     font-family: "Arial Black", sans-serif;
     font-weight: bold;
 }
+#bottom-left{
+    height:15px;
+    width:50%;
+    margin-bottom:2.5%
+}
+#rightmost{
+    width:500px;
+    height:500p;
+    margin-left: 20px;
+
+}
+#container{
+    display: flex;
+    align-items: flex-start;
+}
+#left{
+    flex:1;
+    padding:20px;
+}
+
+
